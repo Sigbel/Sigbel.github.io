@@ -20,7 +20,8 @@ header {
 }
 
 #brand a {
-    color: white
+    color: white;
+    text-decoration: none;
 }
 
 #new-ul {
@@ -182,4 +183,102 @@ transition: all 0.15s ease-in-out;
 .site-main-new li a:hover:after,
 .site-main-new li.active a:after {
 width: 25px;
+}
+
+/* Ballon */
+
+.ballon p{
+    position: relative;
+    max-width: 30em;
+    background-color: #fff;
+    padding: 1.125em 0.1em;
+    font-family: "lora-regular", serif;
+    font-size: 2rem;
+    border-radius: 1rem;
+    color: #888888;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
+    margin-left: 25%;
+    line-height: 1.5;
+    font-weight: 300;
+    display: flex;
+}
+
+
+.ballon p::before{
+    content: '';
+    position: relative;
+    width: 0;
+    height: 0;
+    bottom: 3.4rem;
+    left: 1.5em;
+    border: 1.2rem solid transparent;
+    border-top: none;
+
+    border-bottom-color: #fff;
+    filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
+}
+
+html, body {
+	justify-content:center;
+	align-items:center;
+}
+
+.ballon ui{
+    position: relative;
+    max-width: 30em;
+    background-color: #fff;
+    padding: 1.125em 0.1em;
+    font-family: "lora-regular", serif;
+    font-size: 2rem;
+    border-radius: 1rem;
+    color: #888888;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
+    margin-left: 25%;
+    line-height: 1.5;
+    font-weight: 300;
+    display: flex;
+}
+
+#about-ballon {
+    display: inline-flex;
+}
+
+.flex-container {
+    display: flex;
+    margin: 0px 10px 2rem 10px ;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.flex-child {
+    flex: 1;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
+    margin-bottom: 2rem;
+    text-align: center;
+    margin: 0px 5px;
+    font-family: "poppins-regular", serif;
+    font-size: 1.3rem;
+}
+
+.flex-child strong{
+    font-family: "poppins-bold", serif;
+    color: #bf0449;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .flex-child {
+      font-size: 1.2rem;
+    }
+    .flex-container {
+      display: inline;
+      margin: none;
+    }
+}
+
+#title-tes {
+    color:#0d0d0d;
 }

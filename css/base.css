@@ -415,13 +415,13 @@ textarea {
 }
 
 [class*="col-"],
-.bgrid {
+/* .bgrid {
 	float: left;
-}
+} */
 
-[class*="col-"] + [class*="col-"].end {
+/* [class*="col-"] + [class*="col-"].end {
 	float: right;
-}
+} */
 
 [class*="col-"] {
 	padding: 0 20px;
@@ -450,10 +450,10 @@ textarea {
 	width: 41.66667%;
 }
 
-.col-six,
+/* .col-six,
 .col-1-2 {
 	width: 50%;
-}
+} */
 
 .col-seven {
 	width: 58.33333%;
