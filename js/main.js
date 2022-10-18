@@ -171,7 +171,9 @@ function toggleMobileMenu(menu) {
   /*---------------------------------------------------- */
   /* Smooth Scrolling
   	------------------------------------------------------ */
-    $("#t_click").on("click", function (e) {
+ 
+    $("a[href^='#']").on("click", function (e) {
+      
       e.preventDefault();
   
       let target = this.hash,
@@ -190,6 +192,8 @@ function toggleMobileMenu(menu) {
           }
         );
     });
+
+
 
   /*----------------------------------------------------- */
   /* Back to top
