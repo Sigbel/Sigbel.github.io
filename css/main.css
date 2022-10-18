@@ -2783,5 +2783,10 @@ footer .copyright span:last-child::after {
   background: #000000;
 }
 
+@media only screen and (max-width: 768px){
+  .contact-info {
+    display: block;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -102,7 +102,6 @@ function toggleMobileMenu(menu) {
     var $portfolio_container=$(".portfolio_grid");
 
   $portfolio_container.imagesLoaded(function(){
-    console.log("Passei")
     portfolio_init();
   });
 
@@ -172,25 +171,25 @@ function toggleMobileMenu(menu) {
   /*---------------------------------------------------- */
   /* Smooth Scrolling
   	------------------------------------------------------ */
-  $("a").on("click", function (e) {
-    e.preventDefault();
-
-    let target = this.hash,
-      $target = $(target);
-
-    $("html, body")
-      .stop()
-      .animate(
-        {
-          scrollTop: $target.offset().top,
-        },
-        800,
-        "swing",
-        function () {
-          window.location.hash = target;
-        }
-      );
-  });
+    $("#t_click").on("click", function (e) {
+      e.preventDefault();
+  
+      let target = this.hash,
+        $target = $(target);
+  
+      $("html, body")
+        .stop()
+        .animate(
+          {
+            scrollTop: $target.offset().top,
+          },
+          800,
+          "swing",
+          function () {
+            window.location.hash = target;
+          }
+        );
+    });
 
   /*----------------------------------------------------- */
   /* Back to top
