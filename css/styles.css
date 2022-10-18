@@ -282,3 +282,17 @@ html, body {
 #title-tes {
     color:#0d0d0d;
 }
+
+/* Title Button Rework */
+#title-b {
+    border: none;
+    line-height: none;
+}
+
+/* List Rework */
+.timeline-re {
+    list-style: circle;
+    font-size: 14px;
+    padding-left: 5%;
+    font-family: "poppins-regular", serif;
+}

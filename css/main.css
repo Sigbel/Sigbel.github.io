@@ -71,7 +71,7 @@ body {
 }
 body {
   background: #151515;
-  font-family:"poppins-semibold", sans-serif;
+  font-family:"lora-bold", serif;
   font-size: 1.7rem;
   line-height: 3rem;
   color: #6e6e6e;
@@ -141,7 +141,7 @@ h6,
 .h04,
 .h05,
 .h06 {
-  font-family: "poppins-semibold", sans-serif;
+  font-family: "lora-bold", sans-serif;
   color: #0583f2;
   font-style: normal;
   text-rendering: optimizeLegibility;

@@ -98,17 +98,6 @@ function toggleMobileMenu(menu) {
       }
   }).scrollTop(0);
 
-
-  // if(document.readyState === "complete") {
-  //   console.log("Interactive");
-  // }
-  // else if(document.readyState === "interactive") {
-  //     console.log("Interactive");
-  // }
-  // else {
-  //   console.log("Loading");
-  //     };
-
   $(document).on('ready',function(){
     var $portfolio_container=$(".portfolio_grid");
 
@@ -136,75 +125,12 @@ function toggleMobileMenu(menu) {
     $("#intro h1").fitText(1, { minFontSize: "42px", maxFontSize: "84px" });
   }, 100);
 
-  /*---------------------------------------------------- */
-  /* FitVids
-	------------------------------------------------------ */
-  // $(".fluid-video-wrapper").fitVids();
-
-  /*---------------------------------------------------- */
-  /* Owl Carousel
-	------------------------------------------------------ */
-  // $("#owl-slider").owlCarousel({
-  //   navigation: false,
-  //   pagination: true,
-  //   itemsCustom: [
-  //     [0, 1],
-  //     [700, 2],
-  //     [960, 3],
-  //   ],
-  //   navigationText: false,
-  // });
-
   /*----------------------------------------------------- */
   /* Alert Boxes
   	------------------------------------------------------- */
   $(".alert-box").on("click", ".close", function () {
     $(this).parent().fadeOut(500);
   });
-
-  /*----------------------------------------------------- */
-  /* Stat Counter
-  	------------------------------------------------------- */
-  // let statSection = $("#stats"),
-  //   stats = $(".stat-count");
-
-  // statSection.waypoint({
-  //   handler: function (direction) {
-  //     if (direction === "down") {
-  //       stats.each(function () {
-  //         let $this = $(this);
-
-  //         $({ Counter: 0 }).animate(
-  //           { Counter: $this.text() },
-  //           {
-  //             duration: 4000,
-  //             easing: "swing",
-  //             step: function (curValue) {
-  //               $this.text(Math.ceil(curValue));
-  //             },
-  //           }
-  //         );
-  //       });
-  //     }
-
-  //     // trigger once only
-  //     this.destroy();
-  //   },
-
-  //   offset: "90%",
-  // });
-
-  /*---------------------------------------------------- */
-  /*	Masonry
-	------------------------------------------------------ */
-  // let containerProjects = $("#folio-wrapper");
-
-  // containerProjects.imagesLoaded(function () {
-  //   containerProjects.masonry({
-  //     itemSelector: ".folio-item",
-  //     resize: true,
-  //   });
-  // });
 
   /*----------------------------------------------------*/
   /*	Modal Popup
@@ -244,34 +170,9 @@ function toggleMobileMenu(menu) {
   });
 
   /*---------------------------------------------------- */
-  /* Highlight the current section in the navigation bar
-  	------------------------------------------------------ */
-  // let sections = $("section"),
-  //   navigation_links = $("#main-nav-wrap li a");
-
-  // sections.waypoint({
-  //   handler: function (direction) {
-  //     let active_section;
-
-  //     active_section = $("section#" + this.element.id);
-
-  //     if (direction === "up") active_section = active_section.prev();
-
-  //     let active_link = $(
-  //       '#main-nav-wrap a[href="#' + active_section.attr("id") + '"]'
-  //     );
-
-  //     navigation_links.parent().removeClass("current");
-  //     active_link.parent().addClass("current");
-  //   },
-
-  //   offset: "25%",
-  // });
-
-  /*---------------------------------------------------- */
   /* Smooth Scrolling
   	------------------------------------------------------ */
-  $(".smoothscroll").on("click", function (e) {
+  $("a").on("click", function (e) {
     e.preventDefault();
 
     let target = this.hash,
@@ -290,12 +191,6 @@ function toggleMobileMenu(menu) {
         }
       );
   });
-
-
-  /*---------------------------------------------------- */
-  /*  Placeholder Plugin Settings
-	------------------------------------------------------ */
-  // $("input, textarea, select").placeholder();
 
   /*----------------------------------------------------- */
   /* Back to top
