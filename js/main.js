@@ -83,7 +83,7 @@ function toggleMobileMenu(menu) {
     // will first fade out the loading animation
     $("#loader").fadeOut("slow", function () {
       // will fade out the whole DIV that covers the website.
-      $("#preloader").delay(70).fadeOut("slow");
+      $("#preloader").delay(100).fadeOut("slow");
     });
   }).on('resize',function(){
     mobileMenuHide();
