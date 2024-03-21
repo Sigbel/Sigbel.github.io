@@ -34,10 +34,6 @@
   - Portfólio
   - Contato
 
-## Demonstrativo
-
-![View](https://res.cloudinary.com/dvqvv2bkq/image/upload/v1711051997/portfolio/@Imagens/xn6idafnxn6l7gvyk0g2.gif)
-
 ## Deploy
 
 Para visualização do portfólio, acesse o link abaixo:
