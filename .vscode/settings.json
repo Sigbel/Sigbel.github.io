@@ -3,7 +3,7 @@
         "ejs": "html",
       },
     "[html]": {
-        "editor.defaultFormatter": "j69.ejs-beautify"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
