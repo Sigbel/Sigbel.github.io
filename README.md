@@ -34,9 +34,14 @@
     - Portfólio
     - Contato
 
-## Demonstrativo
+## Deploy
 
 Para visualização do portfólio, acesse o link abaixo:
-
 [https://awesome_portfolio/awesome_portfolio/](https://awesome_portfolio/awesome_portfolio/) 
+
+## Demonstrativo
+
+
+<img src="https://res.cloudinary.com/dvqvv2bkq/image/upload/v1711051997/portfolio/%40Imagens/xn6idafnxn6l7gvyk0g2.gif">
+
 
