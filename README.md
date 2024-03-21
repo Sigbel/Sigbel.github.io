@@ -41,6 +41,6 @@ Para visualização do portfólio, acesse o link abaixo:
 
 ## Demonstrativo
 
-<img src="https://res.cloudinary.com/dvqvv2bkq/image/upload/v1711051997/portfolio/%40Imagens/xn6idafnxn6l7gvyk0g2.gif" alt="Demonstração do Projeto">
+<img src="https://res.cloudinary.com/dvqvv2bkq/image/upload/v1711051997/portfolio/%40Imagens/xn6idafnxn6l7gvyk0g2.gif" alt="Demonstração do Projeto" />
 
 
