@@ -34,13 +34,14 @@
   - Portfólio
   - Contato
 
-## Deploy
-
-Para visualização do portfólio, acesse o link abaixo:
-[https://awesome_portfolio/awesome_portfolio/](https://awesome_portfolio/awesome_portfolio/)
-
 ## Demonstrativo
 
 <p align="center">
 <img width="600px" src="https://res.cloudinary.com/dvqvv2bkq/image/upload/v1711051997/portfolio/%40Imagens/xn6idafnxn6l7gvyk0g2.gif" align="center" alt="view" />
 </p>
+
+## Deploy
+
+Para visualização do portfólio, acesse o link abaixo:
+[https://awesome_portfolio/awesome_portfolio/](https://sigbel.github.io/awesome_portfolio/)
+
