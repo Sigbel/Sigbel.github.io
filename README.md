@@ -37,5 +37,5 @@
 ## Deploy
 
 Para visualização do portfólio, acesse o link abaixo:
-[https://awesome_portfolio/awesome_portfolio/](https://sigbel.github.io/awesome_portfolio/)
+[https://sigbel.github.io/awesome-portfolio/](https://sigbel.github.io/awesome-portfolio/)
 
